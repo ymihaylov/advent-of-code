@@ -1,3 +1,5 @@
+import {sortListOfNumbers} from "../../utils";
+
 export class TotalDistanceCalculator {
 
     private readonly list1: number[];
@@ -8,8 +10,8 @@ export class TotalDistanceCalculator {
             throw Error(`Lists have different lengths! ${list1.length} !== ${list2.length}`);
         }
 
-        this.list1 = [...list1].sort((a, b) => a - b);
-        this.list2 = [...list2].sort((a, b) => a - b);
+        this.list1 = sortListOfNumbers(list1);
+        this.list2 = sortListOfNumbers(list2);
     }
 
     public calculateTotalDistance(): number {
