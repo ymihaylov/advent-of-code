@@ -1,11 +1,11 @@
-import {MemoryDataParser} from "../../../src/03_mull_it_over/services/MemoryDataParser";
-import {MemoryData, MultiplyPair} from "../../../src/03_mull_it_over/types/types";
+import {RegexMemoryDataParser} from "../services/RegexMemoryDataParser";
+import {MemoryData, MultiplyPair} from "../types/types";
 
 describe("MemoryDataParser", () => {
-    let parser: MemoryDataParser;
+    let parser: RegexMemoryDataParser;
 
     beforeEach(() => {
-        parser = new MemoryDataParser();
+        parser = new RegexMemoryDataParser();
     });
 
     describe("parseWithoutEnableCheck", () => {

@@ -1,4 +1,4 @@
-import {isDecreasingList, isIncreasingList, isMonotonicList, sortListOfNumbers} from "../src/utils";
+import {isDecreasingList, isIncreasingList, isMonotonicList, sortListOfNumbers} from "../utils";
 
 describe("Utility Functions", () => {
     describe("sortListOfNumbers", () => {

@@ -1,4 +1,4 @@
-import {SimilarityScoreCalculator} from "../../../src/01_historian_hysteria/calculators/SimilarityScoreCalculator";
+import {SimilarityScoreCalculator} from "../calculators/SimilarityScoreCalculator";
 
 describe("SimilarityScoreCalculator", () => {
   it("should throw an error if lists have different lengths", () => {

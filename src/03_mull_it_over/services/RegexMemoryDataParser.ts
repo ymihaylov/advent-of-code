@@ -1,6 +1,7 @@
 import {MulState, MemoryData, MultiplyPair} from "../types/types";
+import {MemoryDataParserInterface} from "./MemoryDataParserInterface";
 
-export class MemoryDataParser {
+export class RegexMemoryDataParser implements MemoryDataParserInterface {
 
     private basicRegex = /mul\((\d+),(\d+)\)/g;
     private regexWithEnableFlagCheck = /(don't|do)|mul\((\d+),(\d+)\)/g;

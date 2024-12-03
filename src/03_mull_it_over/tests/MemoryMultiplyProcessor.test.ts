@@ -1,13 +1,13 @@
-import {MemoryMultiplyProcessor} from "../../../src/03_mull_it_over/services/MemoryMultiplyProcessor";
-import {MemoryDataParser} from "../../../src/03_mull_it_over/services/MemoryDataParser";
-import {MemoryData, MultiplyPair, ParseMode} from "../../../src/03_mull_it_over/types/types";
+import {MemoryMultiplyProcessor} from "../services/MemoryMultiplyProcessor";
+import {RegexMemoryDataParser} from "../services/RegexMemoryDataParser";
+import {MemoryData, MultiplyPair, ParseMode} from "../types/types";
 
 describe("MemoryMultiplyProcessor", () => {
-    let parser: MemoryDataParser;
+    let parser: RegexMemoryDataParser;
     let processor: MemoryMultiplyProcessor;
 
     beforeEach(() => {
-        parser = new MemoryDataParser();
+        parser = new RegexMemoryDataParser();
         processor = new MemoryMultiplyProcessor(parser);
     });
 

@@ -1,9 +1,9 @@
 // Mock the utility function for independent testing
-import {Report, Reports} from "../../../src/02_red_nose_reports/types";
-import {ReportAnalyzer} from "../../../src/02_red_nose_reports/analyzers/ReportAnalyzer";
-import {isMonotonicList} from "../../../src/utils";
+import {Report, Reports} from "../types";
+import {ReportAnalyzer} from "../analyzers/ReportAnalyzer";
+import {isMonotonicList} from "../../utils";
 
-jest.mock("../../../src/utils", () => ({
+jest.mock("../../utils", () => ({
     isMonotonicList: jest.fn(),
 }));
 

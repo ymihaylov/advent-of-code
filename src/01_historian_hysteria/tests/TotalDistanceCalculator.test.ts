@@ -1,4 +1,4 @@
-import {TotalDistanceCalculator} from "../../../src/01_historian_hysteria/calculators/TotalDistanceCalculator";
+import {TotalDistanceCalculator} from "../calculators/TotalDistanceCalculator";
 
 describe("TotalDistanceCalculator", () => {
   it("should throw an error if lists have different lengths", () => {
