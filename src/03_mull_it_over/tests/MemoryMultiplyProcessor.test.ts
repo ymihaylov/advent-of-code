@@ -1,5 +1,5 @@
 import {MemoryMultiplyProcessor} from "../services/MemoryMultiplyProcessor";
-import {RegexMemoryDataParser} from "../services/RegexMemoryDataParser";
+import {RegexMemoryDataParser} from "../services/parsers/RegexMemoryDataParser";
 import {MemoryData, MultiplyPair, ParseMode} from "../types/types";
 
 describe("MemoryMultiplyProcessor", () => {

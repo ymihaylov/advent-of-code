@@ -1,4 +1,4 @@
-import {MulState, MemoryData, MultiplyPair} from "../types/types";
+import {MulState, MemoryData, MultiplyPair} from "../../types/types";
 import {MemoryDataParserInterface} from "./MemoryDataParserInterface";
 
 export class RegexMemoryDataParser implements MemoryDataParserInterface {

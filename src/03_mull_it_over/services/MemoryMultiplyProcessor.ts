@@ -1,9 +1,9 @@
 import {MemoryData, MultiplyPair, ParseMode} from "../types/types";
-import {RegexMemoryDataParser} from "./RegexMemoryDataParser";
+import {MemoryDataParserInterface} from "./parsers/MemoryDataParserInterface";
 
 export class MemoryMultiplyProcessor {
 
-    constructor(private readonly parser: RegexMemoryDataParser) {
+    constructor(private readonly parser: MemoryDataParserInterface) {
     }
 
     public multiply(memoryData: MemoryData, parseMod: ParseMode = ParseMode.NoEnableCheck): number {

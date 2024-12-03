@@ -1,4 +1,4 @@
-import {RegexMemoryDataParser} from "../services/RegexMemoryDataParser";
+import {RegexMemoryDataParser} from "../services/parsers/RegexMemoryDataParser";
 import {MemoryData, MultiplyPair} from "../types/types";
 
 describe("MemoryDataParser", () => {

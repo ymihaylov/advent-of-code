@@ -1,7 +1,7 @@
 import {readData} from "./data/readData";
 import {MemoryMultiplyProcessor} from "./services/MemoryMultiplyProcessor";
 import {MemoryData, ParseMode} from "./types/types";
-import {RegexMemoryDataParser} from "./services/RegexMemoryDataParser";
+import {RegexMemoryDataParser} from "./services/parsers/RegexMemoryDataParser";
 
 // const filePath = `${process.cwd()}/src/03_mull_it_over/data/input.txt`;
 const filePath = `${process.cwd()}/src/03_mull_it_over/data/input.txt.example`;
