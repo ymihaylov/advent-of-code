@@ -16,5 +16,5 @@ export function readData(filePath: string): { list1: number[], list2: number[] }
             list2.push(second);
         });
 
-    return {list1, list2: list2}
+    return {list1, list2}
 }

@@ -2,7 +2,10 @@ import {readData} from "./data/readData";
 import {ReportAnalyzer} from "./analyzers/ReportAnalyzer";
 import {Reports} from "./types";
 
-const filePath = `${process.cwd()}/src/02_red_nose_reports/data/input.txt`;
+// === Problem Description - https://adventofcode.com/2024/day/2 ===
+
+// const filePath = `${process.cwd()}/src/02_red_nose_reports/data/input.txt`;
+const filePath = `${process.cwd()}/src/02_red_nose_reports/data/input.txt.example`;
 const reports: Reports = readData(filePath);
 
 const testReports: Reports = [

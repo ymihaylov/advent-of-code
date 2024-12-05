@@ -2,7 +2,10 @@ import {readData} from "./data/readData";
 import {SimilarityScoreCalculator} from "./calculators/SimilarityScoreCalculator";
 import {TotalDistanceCalculator} from "./calculators/TotalDistanceCalculator";
 
-const filePath = `${process.cwd()}/src/01_historian_hysteria/data/input.txt`;
+// === Problem Description - https://adventofcode.com/2024/day/1 ===
+
+// const filePath = `${process.cwd()}/src/01_historian_hysteria/data/input.txt`;
+const filePath = `${process.cwd()}/src/01_historian_hysteria/data/input.txt.example`;
 const result = readData(filePath);
 
 // Challenge 1
