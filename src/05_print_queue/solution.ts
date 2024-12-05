@@ -17,7 +17,7 @@ function sumOfMiddlesOfCorrectUpdates(data: Data): number {
     }, 0)
 }
 
-function sumOfMiddlesOfSortedIncorrectCorrectUpdates(data: Data): number {
+function sumOfMiddlesOfSortedIncorrectUpdates(data: Data): number {
     return data.updates.reduce((sumOfMiddles: number, update: Update) => {
         const sortedUpdate = update.toSorted(updateComparator)
 
@@ -30,4 +30,4 @@ function updateComparator(a: number, b: number): -1 | 1 {
 }
 
 console.log("Part 1: ", sumOfMiddlesOfCorrectUpdates(data));
-console.log("Part 2: ", sumOfMiddlesOfSortedIncorrectCorrectUpdates(data));
+console.log("Part 2: ", sumOfMiddlesOfSortedIncorrectUpdates(data));
