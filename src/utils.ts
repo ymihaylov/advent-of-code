@@ -13,3 +13,7 @@ export function isDecreasingList(numbers:  number[]): boolean {
 export function isMonotonicList(numbers: number[]): boolean {
     return isIncreasingList(numbers) || isDecreasingList(numbers);
 }
+
+export function isValidPosition(row: number, col: number, data: string[][]): boolean {
+    return row >= 0 && row < data.length && col >= 0 && col < data[row].length;
+}
