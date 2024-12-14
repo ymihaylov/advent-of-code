@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TypeScript" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v22.3.0/bin/ts-node" node-parameters="$FilePathRelativeToProjectRoot$" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="TypeScript" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.local/state/fnm_multishells/69201_1734018551853/bin/ts-node" node-parameters="$FilePathRelativeToProjectRoot$" working-dir="$PROJECT_DIR$">
     <method v="2" />
   </configuration>
 </component>
