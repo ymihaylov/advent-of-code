@@ -1,8 +1,9 @@
 import * as fs from "fs";
 
-export function readData(filePath: string): string[] {
+export function readData(filePath: string): number[] {
     return fs
         .readFileSync(filePath, "utf-8")
         .trim()
-        .split("");
+        .split("")
+        .map(n => parseInt(n));
 }
